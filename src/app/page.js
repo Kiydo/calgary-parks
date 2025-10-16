@@ -4,7 +4,9 @@ import ParkMap from "./components/parkMap";
 
 export default function Home() {
   return (
-    // <ListParks />
-    <ParkMap />
+    <div>
+      <ParkMap />
+      <ListParks/>
+    </div>
   );
 }
